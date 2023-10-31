@@ -1,0 +1,55 @@
+
+
+
+
+form{
+    width:100%;
+}
+table{
+border-collapse: collapse;
+left: 0;
+right: 0;
+margin:auto;
+}
+th{
+position:sticky;
+top:30px;
+background-color: white;
+}
+td{
+    padding-bottom: 40px;
+    border-top: solid;
+    padding-left: 20px;
+    vertical-align: top;
+}
+
+
+.amarillo{
+    background-color: yellow;
+}
+.verde{
+    background-color: lightgreen;
+}
+.azul{
+    background-color: lightblue;
+}
+.rojo{
+    background-color: salmon;
+}
+.gris{
+    background-color: grey;
+}
+#navegador{
+   
+    position:sticky;
+    margin: auto;
+    height: 30px;
+    width: 100%;
+    background-color: pink;
+    top:0;
+}
+#recargar{
+    position:absolute;
+    right:30%;
+    top:5px;
+}
