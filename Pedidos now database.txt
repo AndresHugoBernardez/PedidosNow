@@ -1,0 +1,17 @@
+Estructura de Base de datos
+
+entiendase a `pedidosnowdb` como base de datos de ejemplo:
+
+tabla PEDIDOS
+
+
+CREATE TABLE `pedidosnowdb`.`PEDIDOS` (`ID` INT(1) NULL , `NOMBRE` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL , `HORA` VARCHAR(50) CHARACTER SET utf8 COLLATE utf8_general_ci NULL, `PRECIO` INT(1) NULL , `ESTADO` INT(1) NULL , PRIMARY KEY (`ID`)) ENGINE = InnoDB CHARSET=utf8 COLLATE utf8_general_ci;
+
+
+(Antes de correr el programa, cargue la tabla PEDIDOS con al menos un dato en el ID=1) 	
+
+
+
+tabla ORDENES
+
+CREATE TABLE `pedidosnowdb`.`ORDENES` (`ID` INT(1) NOT NULL , `PRODUCTO_ID` INT(1) NOT NULL , `CANTIDAD` INT(1) NOT NULL ) ENGINE = InnoDB;
