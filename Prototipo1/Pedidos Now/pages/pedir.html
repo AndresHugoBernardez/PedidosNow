@@ -1,0 +1,82 @@
+
+<?php
+include_once "../php/conectar.php";
+include_once "../php/conectarfin.php";
+include_once "../php/insert.php";
+
+
+
+conectarse();
+
+insertar("`pedidos`(`ID`,`NOMBRE`,`HORA`,`PRECIO`,`ESTADO`)","(`1`,`ANDRES`,`1234`,`1999`,`1`)");
+
+desconectar();
+
+?>
+
+
+<html>
+
+<head>
+    <script src="../js/pedir.js"></script>
+
+    <link rel="StyleSheet" href="../css/pedir.css" type="text/css" media="screen" />
+
+
+</head>
+
+<body>
+
+
+
+
+
+<div id="pantallaInicial"><div>
+
+    <br>
+    <br>
+    <h1> ¡PEDIDOS NOW!</h1>
+    <br>
+    <br>
+</div>    
+</div>
+
+<header>
+
+    <H1>¡PEDIDOS NOW!</H1>
+</header>
+<div>
+
+<form method="post" id="submitForm">
+
+
+<br>
+<div id="BarraPedir">
+<h3>Nombre: </h3>
+
+
+<input type="text" id="nombre" required > 
+
+<input type="button" id="pedirnow" value="ordenar" ><br><br>
+</div>
+<div class="item"><input type="number" name="hamburguesa" id="hamburguesa" min="0" max="10" step="1" value="0" required> <div class="alpha">Hamburguesa</div> </details>  <img src="../img/hamburguesa.png"></div> <br>
+<div class="item"><input type="number" name="coca"        id="coca"        min="0" max="10" step="1" value="0" required><div class="alpha">Coca</div> <img src="../img/coca.jpg"></div><br>
+<div class="item"><input type="number" name="papas"       id="papas"       min="0" max="10" step="1" value="0" required><div class="alpha">Papas</div> <img src="../img/papas.png"></div><br>
+<div class="item"><input type="number" name="empanada"    id="empanada"    min="0" max="10" step="1" value="0" required> <div class="alpha">Empanada</div> <img src="../img/empanada.png"></div><br>
+<div class="item"><input type="number" name="choripan"    id="choripan"    min="0" max="10" step="1" value="0" required><div class="alpha">Choripan</div> <img src="../img/choripan.jpeg"></div><br>
+
+
+
+</form>
+
+
+
+
+</div>
+<footer>
+    <p> Esqueleto de proyecto para escuela técnica. Esta página sin CSS es un prototipo del diseño final.</p>
+    <br>
+    <p>Hecho por Andrés Hugo Bernárdez Octubre 2023</p>
+</footer>
+</body>
+</html>
