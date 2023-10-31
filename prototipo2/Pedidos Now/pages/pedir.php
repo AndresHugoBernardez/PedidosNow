@@ -84,7 +84,7 @@ if (isset($_POST))
         conectarse();
 
         $nuevoID=0;
-        if(seleccionar("","","","SELECT `ID` FROM `pedidos` ORDER BY ID DESC"))
+        if(seleccionar("","","","SELECT `ID` FROM `PEDIDOS` ORDER BY ID DESC"))
         {
         $row=mysqli_fetch_row($GLOBALS["result"]);
         $nuevoID=$row[0]+1;
@@ -105,11 +105,11 @@ if (isset($_POST))
 3	Choripan	1300
 4	Hamburguesa	1000
 5	Cono de papas fritas	800 */
-        if($_POST["hamburguesa"]>0) insertar("`ordenes`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','4','".$_POST["hamburguesa"]."')");
-        if($_POST["coca"       ]>0) insertar("`ordenes`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','1','".$_POST["coca"       ]."')");
-        if($_POST["papas"      ]>0) insertar("`ordenes`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','5','".$_POST["papas"      ]."')");
-        if($_POST["empanada"   ]>0) insertar("`ordenes`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','2','".$_POST["empanada"   ]."')");
-        if($_POST["choripan"   ]>0) insertar("`ordenes`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','3','".$_POST["choripan"   ]."')");
+        if($_POST["hamburguesa"]>0) insertar("`ORDENES`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','4','".$_POST["hamburguesa"]."')");
+        if($_POST["coca"       ]>0) insertar("`ORDENES`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','1','".$_POST["coca"       ]."')");
+        if($_POST["papas"      ]>0) insertar("`ORDENES`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','5','".$_POST["papas"      ]."')");
+        if($_POST["empanada"   ]>0) insertar("`ORDENES`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','2','".$_POST["empanada"   ]."')");
+        if($_POST["choripan"   ]>0) insertar("`ORDENES`(`ID`, `PRODUCTO_ID`, `CANTIDAD`)"," ('".$nuevoID."','3','".$_POST["choripan"   ]."')");
 
         desconectar();
 
