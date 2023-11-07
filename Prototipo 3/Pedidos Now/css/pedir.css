@@ -1,0 +1,136 @@
+
+    body{
+        background-color:aquamarine;
+    }
+ 
+    label
+    {
+        width:90%;
+        
+        display:inline-block;
+        
+    }
+    .item{
+        width: min-content;
+        margin-left: auto;
+        margin-right: auto;
+        display:grid;
+        grid-template-columns: 100px 250px 350px;
+    }
+
+    #alpha{
+        margin-left: 10px;
+        min-width: 200px;
+    }
+    img{
+   
+        display:inline-block;
+        max-width: 300px;
+        max-height: 200px;
+    }
+    .item div{
+        margin-left: 10px;
+        
+        display:inline-block;
+        
+    }
+    /*
+    input{
+        margin-left: 30px;
+        display:inline-block;
+    }*/
+    
+    .preciototal
+    {
+        background-color:rgb(228, 100, 26);
+        border:none;
+        width: 125px;
+        height: 50px;
+        font-size: 36px;
+    }
+
+
+    tr{
+        margin-top: 20px;
+        border-top: 2px blue solid;
+    }
+
+    .precioscaja
+    {
+        background-color:rgb(92, 190, 34);
+        border:none;
+        width: 50px;
+        height: 30px;
+        font-size: larger;
+    }
+    input[type=number]{
+        height:50px;
+        font-size: larger;
+        width: 60px;
+        padding-left: 10px;
+        -moz-appearance: textfield;
+    }
+    input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+    height: 50px;
+    }
+
+    #BarraPedir{
+        width: 80%;
+        max-width: 800px;
+        margin: auto;
+    }
+    #pedirnow{
+        display: inline;
+        font-size: medium;
+        width: 100px;
+        height: 40px;
+        background-color: brown;
+        color: white;
+        font-weight: bold;
+        position:relative;
+        float:right;
+    }
+    #nombre{
+        font-size: larger;
+        display: inline-block;
+        
+    }
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        display: inline-block;
+        margin-left: 30px;
+    }
+
+    #pantallaInicial{
+       
+        height: 100%;
+        width: 100%;
+        position:fixed;
+        background-color: aqua;
+        left:0;
+       
+        display:block;
+        
+        z-index: 1;
+    }
+    #pantallaInicial div{
+        background-color: lightseagreen;
+        position:absolute;
+        width: fit-content;
+        height: fit-content;
+        margin:auto;
+        
+        padding:50px;
+
+        top:0;
+        bottom: 0;
+        left:0;
+        right:0;
+        display:block;
+        
+        }
+ 
