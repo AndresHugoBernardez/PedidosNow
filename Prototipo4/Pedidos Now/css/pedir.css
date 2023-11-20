@@ -1,0 +1,173 @@
+
+    body{
+        background-color:rgba(248, 210, 0);
+        margin:0;border:0;padding:0;
+    }
+ 
+    label
+    {
+        width:90%;
+        
+        display:inline-block;
+        
+    }
+    .item{
+        width: min-content;
+       margin:20px;
+        display:inline-block;
+        
+        vertical-align: bottom;
+        text-align: center;
+
+        /*display:grid;
+        grid-template-columns: 100px 250px 350px;*/
+    }
+
+    .alpha{
+        position:relative;
+        margin-left: 10px;
+        min-width: 200px;
+        display:block;
+    }
+    img{
+        position:relative;
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        max-height: 200px;
+    }
+
+    .tableroOpciones{
+        
+        max-width: 80%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*.item div{
+        margin-left: 10px;
+        
+        display:inline-block;
+        
+    }*/
+    /*
+    input{
+        margin-left: 30px;
+        display:inline-block;
+    }*/
+    
+    .preciototal
+    {
+        background-color:lightgrey;
+        border:none;
+        width: 125px;
+        height: 50px;
+        font-size: 36px;
+    }
+
+
+
+    .precioscaja
+    {
+        background-color:transparent;
+        border:none;
+        width: 50px;
+        height: 30px;
+        font-size: larger;
+    }
+    input[type=number]{
+        height:50px;
+        font-size: larger;
+        width: 60px;
+        padding-left: 10px;
+        -moz-appearance: textfield;
+        display:block;
+        position:relative;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button {
+    opacity: 1;
+    height: 50px;
+    }
+
+    #BarraPedir{
+        width: 80%;
+        max-width: 800px;
+        margin:0;
+        margin-left: auto;
+        margin-right: auto;
+        position:sticky;
+        top:0;
+        background-color: rgba(248, 210, 0);;
+        z-index: 2;
+    }
+    #pedirnow{
+        display: inline-block;
+        font-size: medium;
+        width: 120px;
+        height: 60px;
+
+        background-color: brown;
+        color: white;
+        font-weight: bold;
+        position:relative;
+        font-size: larger;
+        border-radius: 25px;
+
+        vertical-align: middle;
+    }
+    #nombre{
+        font-size: 36px;
+        display: inline-block;
+        width: 250px;
+        
+    }
+    h2{
+        font-size: 30px;
+    }
+
+    h3{
+        display: inline-block;
+        margin-left: larger;
+        font-size: 36px;
+        margin:0;
+    }
+
+    #pantallaInicial{
+       
+        height: 100%;
+        width: 100%;
+        position:fixed;
+        background-color: rgb(43, 146, 146);
+        background-image: url("../img/logo.PNG"); 
+        background-repeat: repeat;
+        left:0;
+          
+        display:block;
+        
+        z-index: 10;
+    }
+    #pantallaInicial div{
+        background-color: rgb(49, 153, 49);
+      
+        position:absolute;
+        width: fit-content;
+        height: fit-content;
+        margin:auto;
+        border-radius: 50px;
+
+
+        padding:50px;
+
+        top:0;
+        bottom: 0;
+        left:0;
+        right:0;
+        display:block;
+        
+        }
+
+
