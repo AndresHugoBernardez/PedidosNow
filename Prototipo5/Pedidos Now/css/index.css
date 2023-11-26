@@ -1,0 +1,85 @@
+.hipervinculos a{
+    display: block;
+    background-color: green;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    color:white;
+    text-align: center;
+
+}
+
+
+#principal{
+    height: 100vh;
+    width: 97vw;
+    position:relative;
+}
+h1{
+    font-size: 44px;
+    font-style: italic;
+}
+body{
+
+
+margin: 0;
+border:0;
+
+padding:0;
+
+height:100%;
+width: 100%;
+
+}
+img{
+
+width: 100%;
+height: 100%;
+}
+
+
+
+.logo{
+margin:0;padding:0;border:0;
+position:relative;
+height:100%;
+width: 50%;
+display:inline-block;
+/*background-color: red;*/
+
+}
+
+.cuerpo{
+margin:0;padding:0;border:0;
+position:relative;
+height:100%;
+width: 45%;
+
+display:inline-block;
+vertical-align: top;
+/*background-color: blue;*/
+right: 0;
+
+
+
+}
+.hipervinculos{
+position:absolute;
+height: fit-content;
+width: fit-content;
+/*   background-color: yellow;*/
+display: block;
+left:55%;
+top:60%;
+transform: translate(-50%,-50%);
+
+}
+footer{
+    display:block;
+    position:relative;
+
+}
+footer *{
+    text-align: center;
+}

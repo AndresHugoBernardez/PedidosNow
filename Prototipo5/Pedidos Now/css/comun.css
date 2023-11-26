@@ -1,0 +1,69 @@
+header{
+    position:relative;
+    display:block;
+    width: 100%;
+    height:120px;
+    background-color: rgb(49, 153, 49);
+}
+#titulo{
+    position:absolute;
+    display:inline-block;
+    background-color: none;
+    float:none;
+    
+    width: 600px;
+    height: 100%;
+
+    right: 0;
+    left:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    
+    
+}
+#titulo div{
+    max-width: 400px;
+    width: 400px;
+    display: inline-block;
+    height: 100%;
+    top:0;
+   vertical-align: top;
+}
+h1{
+   
+   
+   
+
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+    font-size: 40PX; 
+}
+/*
+.titulo2{
+    display: block;
+    position:relative;
+}*/
+
+.logo{
+    height:80%;
+   position:absolute;
+   display: inline-block;
+   margin-top: 12px;
+
+ 
+    
+}
+footer *{
+    text-align: center;
+}
+
+.grande{
+    display:inline-block;
+    margin:0;
+    width:fit-content;
+    font-size: 40px;
+}
